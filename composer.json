@@ -1,12 +1,18 @@
 {
     "name": "ukrator/jira-project-monitor",
     "require": {
-        "silex/silex": "^2.0"
+        "silex/silex": "^2.0",
+        "twig/twig": "^1.24.1"
     },
     "authors": [
         {
             "name": "Sebastian Kobisch",
             "email": "sebastian.kobisch@yahoo.de"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "JProjectMonitor\\": "src/"
+        }
+    }
 }

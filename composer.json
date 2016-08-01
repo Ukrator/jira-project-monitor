@@ -1,0 +1,12 @@
+{
+    "name": "ukrator/jira-project-monitor",
+    "require": {
+        "silex/silex": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Sebastian Kobisch",
+            "email": "sebastian.kobisch@yahoo.de"
+        }
+    ]
+}
